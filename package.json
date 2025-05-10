@@ -1,0 +1,37 @@
+{
+  "name": "@coze/realtime-quickstart-vue",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Coze Realtime Quickstart(Vue)",
+  "scripts": {
+    "build": "vue-cli-service build",
+    "run-preinstall": "node scripts/preinstall.js",
+    "start": "vue-cli-service serve --port 3000",
+    "test": "exit 0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ],
+  "dependencies": {
+    "@coze/api": "^1.2.0",
+    "@coze/realtime-api": "^1.2.0",
+    "@volcengine/rtc": "^4.62.1",
+    "ant-design-vue": "^4.2.6",
+    "core-js": "^3.39.0",
+    "typescript": "^5.5.3",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.1",
+    "@babel/preset-env": "^7.26.1",
+    "@babel/preset-typescript": "^7.26.0",
+    "@types/node": "^20.15.0",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-typescript": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "ts-loader": "^9.5.1"
+  }
+}
